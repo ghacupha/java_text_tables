@@ -7,7 +7,7 @@ Transfer-Encoding: chunked
 X-GitHub-Media-Type: github.v3; format=json
 Content-Encoding: gzip
 Server: GitHub.com
-Date: Fri, 06 Apr 2018 09:05:24 GMT
+Date: Fri, 06 Apr 2018 09:10:41 GMT
 Content-Type: application/octet-stream
 Status: 304 Not Modified
 X-RateLimit-Limit: 60
@@ -24,10 +24,10 @@ X-Content-Type-Options: nosniff
 X-XSS-Protection: 1; mode=block
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Content-Security-Policy: default-src 'none'
-X-Runtime-rack: 0.059684
-X-GitHub-Request-Id: 0BC9:5AF1:92DE31:153E196:5AC73853
-OkHttp-Sent-Millis: 1523005574925
-OkHttp-Received-Millis: 1523005575248
+X-Runtime-rack: 0.062331
+X-GitHub-Request-Id: 0FED:5AF2:DE4C37:1CE1A33:5AC73991
+OkHttp-Sent-Millis: 1523005892717
+OkHttp-Received-Millis: 1523005893038
 
 TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
 2

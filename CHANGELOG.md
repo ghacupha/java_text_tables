@@ -5,6 +5,11 @@ Changelog for java_text_tables.
 ## Unreleased
 ### No issue
 
+**added configurations to make installs easier**
+
+
+[f1b6b432e30a4ec](https://github.com/ghacupha/java_text_tables/commit/f1b6b432e30a4ec) Edwin Njeru *2018-04-06 09:10:42*
+
 **Fix header of readme**
 
  * The header on the readme was improperly formatted so the markdown didn&#39;t render correctly.
