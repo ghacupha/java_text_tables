@@ -169,7 +169,7 @@ public final class GridTable
     }
     
     public Collection<String> toCell() {
-        List<String> cell = new ArrayList<String>(tableHeight);
+        List<String> cell = new ArrayList<>(tableHeight);
         // foreach row
         //
         for (int row = 0; row < numRows; row++) {

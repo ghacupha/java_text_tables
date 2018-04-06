@@ -171,7 +171,7 @@ public final class Border
     }
 
     private Collection<String> vline(int height) {
-        List<String> newLines = new ArrayList<String>(height);
+        List<String> newLines = new ArrayList<>(height);
         final String line = Character.toString(chars.vertical);
         while (newLines.size() < height) {
             newLines.add(line);

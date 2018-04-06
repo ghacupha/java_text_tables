@@ -1,0 +1,6 @@
+
+ iNamik Text Tables for Java
+
+ Copyright (C) 2016 David Farrell (DavidPFarrell@yahoo.com)
+
+ Licensed under The MIT License (MIT), see LICENSE.txt
