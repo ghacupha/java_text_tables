@@ -8,6 +8,11 @@ Changelog for java_text_tables.
 **added configurations to make installs easier**
 
 
+[c2ff4e3d02bc3b1](https://github.com/ghacupha/java_text_tables/commit/c2ff4e3d02bc3b1) Edwin Njeru *2018-04-06 09:11:48*
+
+**added configurations to make installs easier**
+
+
 [f1b6b432e30a4ec](https://github.com/ghacupha/java_text_tables/commit/f1b6b432e30a4ec) Edwin Njeru *2018-04-06 09:10:42*
 
 **Fix header of readme**
