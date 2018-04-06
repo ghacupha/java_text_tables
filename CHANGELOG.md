@@ -5,6 +5,11 @@ Changelog for java_text_tables.
 ## Unreleased
 ### No issue
 
+**temporarily changed maven version requirement to version 3.2.5 from 3.5.0 to allow for jitpack builds**
+
+
+[96390237652abfd](https://github.com/ghacupha/java_text_tables/commit/96390237652abfd) Edwin Njeru *2018-04-06 11:24:03*
+
 **added configurations to make installs easier**
 
 

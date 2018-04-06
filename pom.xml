@@ -18,7 +18,7 @@
         <maven.compiler.target.version>1.8</maven.compiler.target.version>
         <maven.compiler.source.version>1.8</maven.compiler.source.version>
         <required.java.version>1.8</required.java.version>
-        <required.maven.version>3.2.5</required.maven.version>
+        <required.maven.version>3.2.5</required.maven.version><!--To apply 3.5.0 for compatibility-->
         <commons.surefire-report.aggregate>true</commons.surefire-report.aggregate>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <!--<project.build.sourceEncoding>Cp1252</project.build.sourceEncoding>-->
