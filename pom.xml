@@ -19,7 +19,7 @@
         <maven.compiler.source.version>1.6</maven.compiler.source.version>
         <required.java.version>1.6</required.java.version>
         <required.maven.version>3.2.5</required.maven.version>
-        <commons.surefire-report.aggregate>true</commons.surefire-report.aggregate>
+        <commons.surefire-report.aggregate>false</commons.surefire-report.aggregate>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <!--<project.build.sourceEncoding>Cp1252</project.build.sourceEncoding>-->
 
@@ -223,7 +223,8 @@
                 </executions>
             </plugin>
 
-            <!-- Setup spotbugs dependency, would normally only be in reporting section -->
+            <!-- Setup spotbugs dependency, would normally only be in reporting section. But we
+             need an explicit dependency declaration to make sure we can download it to local repo-->
             <plugin>
                 <groupId>com.github.spotbugs</groupId>
                 <artifactId>spotbugs-maven-plugin</artifactId>
