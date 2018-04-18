@@ -31,7 +31,6 @@
         <maven.jar.plugin.version>2.4</maven.jar.plugin.version>
         <maven.gpg.plugin.version>1.6</maven.gpg.plugin.version>
         <maven.release.plugin.version>2.5.3</maven.release.plugin.version>
-        <git-changelog-maven-plugin.version>1.54</git-changelog-maven-plugin.version>
         <spotbugs.maven.plugin.version>3.1.0-RC6</spotbugs.maven.plugin.version>
         <jacoco-maven-plugin.version>0.7.9</jacoco-maven-plugin.version>
         <findbugs.maven.plugin.version>2.5.2</findbugs.maven.plugin.version>
@@ -199,28 +198,6 @@
                     <headerLocation>${checkStyle.config.headerLocation}</headerLocation>
                 </configuration>
             </plugin>
-            <!-- Print the change log as release notes...-->
-            <!--Run mvn generate-sources, to use-->
-            <plugin>
-                <groupId>se.bjurr.gitchangelog</groupId>
-                <artifactId>git-changelog-maven-plugin</artifactId>
-                <version>${git-changelog-maven-plugin.version}</version>
-                <executions>
-                    <execution>
-                        <id>GenerateGitChangelog</id>
-                        <phase>generate-sources</phase>
-                        <goals>
-                            <goal>git-changelog</goal>
-                        </goals>
-                        <configuration>
-                            <!-- A file on filesystem //-->
-                            <file>CHANGELOG.md</file>
-                            <!--<toRef>master</toRef>-->
-                            <templateFile>${project.basedir}/config/changelog.mustache</templateFile>
-                        </configuration>
-                    </execution>
-                </executions>
-            </plugin>
             <!-- Enforce Maven 3.5.0 -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -286,7 +263,6 @@
 
     <reporting>
         <plugins>
-
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-checkstyle-plugin</artifactId>
