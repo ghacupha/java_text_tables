@@ -5,6 +5,16 @@ Changelog for java_text_tables.
 ## Unreleased
 ### No issue
 
+**Removed .okhttpcache from the repo**
+
+
+[d6b059b7879e305](https://github.com/ghacupha/java_text_tables/commit/d6b059b7879e305) Edwin Njeru *2018-04-18 05:08:28*
+
+**temporarily changed maven version requirement to version 3.2.5 from 3.5.0 to allow for jitpack builds**
+
+
+[2bd3c6da5b9071c](https://github.com/ghacupha/java_text_tables/commit/2bd3c6da5b9071c) Edwin Njeru *2018-04-06 11:25:36*
+
 **temporarily changed maven version requirement to version 3.2.5 from 3.5.0 to allow for jitpack builds**
 
 

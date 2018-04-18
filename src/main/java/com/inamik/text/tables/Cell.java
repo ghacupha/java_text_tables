@@ -46,7 +46,7 @@ public final class Cell
     }
 
     public static Collection<String> append(Collection<String> cell, String...lines) {
-        List<String> r = new ArrayList<>(cell.size() + lines.length);
+        List<String> r = new ArrayList<String>(cell.size() + lines.length);
         r.addAll(cell);
         for (String line: lines) {
             r.add(line);
@@ -55,7 +55,7 @@ public final class Cell
     }
 
     public static Collection<String> append(Collection<String> cell, Collection<String> lines) {
-        List<String> r = new ArrayList<>(cell.size() + lines.size());
+        List<String> r = new ArrayList<String>(cell.size() + lines.size());
         r.addAll(cell);
         r.addAll(lines);
         return r;

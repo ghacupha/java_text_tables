@@ -23,7 +23,7 @@ import java.util.LinkedList;
  */
 public class SimpleTable
 {
-    private LinkedList<LinkedList<Collection<String>>> table = new LinkedList<>();
+    private LinkedList<LinkedList<Collection<String>>> table = new LinkedList<LinkedList<Collection<String>>>();
     private int numRows = 0;
     private int numCols = 0;
     
@@ -32,7 +32,7 @@ public class SimpleTable
     public SimpleTable() { /* Empty */ }
 
     public SimpleTable nextRow() {
-        LinkedList<Collection<String>> row = new LinkedList<>();
+        LinkedList<Collection<String>> row = new LinkedList<Collection<String>>();
         table.add(row);
         numRows++;
         return this;
